@@ -20,7 +20,7 @@ namespace TravelAgentUI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(); 
         }
 
         public IActionResult Privacy()
