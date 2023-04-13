@@ -13,7 +13,7 @@ namespace DataAccessLayer.Repository
         public void Delete(T t)
         {
             using var c=new TraversalDbContext();
-            c.Remove(T);
+            c.Remove(c);
             c.SaveChanges();
         }
 
