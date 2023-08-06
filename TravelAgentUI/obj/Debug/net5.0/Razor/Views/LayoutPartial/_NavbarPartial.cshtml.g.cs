@@ -26,8 +26,15 @@ using TravelAgentUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\ssame\Desktop\Github\TravelAgentApp\TravelAgentUI\Views\_ViewImports.cshtml"
+using EntityLayer.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"66069c415320bd2647c9171f5c849fa38a356c4f", @"/Views/LayoutPartial/_NavbarPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d5c09049e7235604d45529838f68fb46150907af", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41c9057c74be0c021d4dc1177dbd4c5f2931392b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_LayoutPartial__NavbarPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -87,7 +94,7 @@ using TravelAgentUI.Models;
 
             <div class=""collapse navbar-collapse"" id=");
             WriteLiteral("\"navbarTogglerDemo02\">\r\n                <ul class=\"navbar-nav mr-auto\">\r\n                    <li class=\"nav-item active\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f7774", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f7968", async() => {
                 WriteLiteral("Ana Sayfa <span class=\"sr-only\">(current)</span>");
             }
             );
@@ -103,7 +110,7 @@ using TravelAgentUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f9076", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f9270", async() => {
                 WriteLiteral("Hakkımıza");
             }
             );
@@ -119,7 +126,7 @@ using TravelAgentUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f10337", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f10531", async() => {
                 WriteLiteral("Rotalar");
             }
             );
@@ -135,7 +142,7 @@ using TravelAgentUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f11597", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f11791", async() => {
                 WriteLiteral("Packages");
             }
             );
@@ -159,7 +166,7 @@ using TravelAgentUI.Models;
                         </a>
                         <div class=""dropdown-menu"" aria-labelledby=""navbarDropdown1"">
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f13275", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f13469", async() => {
                 WriteLiteral("Blog Posts");
             }
             );
@@ -175,7 +182,7 @@ using TravelAgentUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f14466", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f14660", async() => {
                 WriteLiteral("Blog single");
             }
             );
@@ -191,7 +198,7 @@ using TravelAgentUI.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f15658", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66069c415320bd2647c9171f5c849fa38a356c4f15852", async() => {
                 WriteLiteral("Landing Page");
             }
             );

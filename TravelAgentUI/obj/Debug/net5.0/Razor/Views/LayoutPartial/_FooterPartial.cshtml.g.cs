@@ -26,8 +26,15 @@ using TravelAgentUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\ssame\Desktop\Github\TravelAgentApp\TravelAgentUI\Views\_ViewImports.cshtml"
+using EntityLayer.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3238f3bd6c96f48feada680c5c59b34a9fd83d84", @"/Views/LayoutPartial/_FooterPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d5c09049e7235604d45529838f68fb46150907af", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41c9057c74be0c021d4dc1177dbd4c5f2931392b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_LayoutPartial__FooterPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -108,7 +115,7 @@ using TravelAgentUI.Models;
                         <div class=""end-column"">
                             <h4>Son gelişmeler ve kampanyalardan haberdar olun.</h4>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3238f3bd6c96f48feada680c5c59b34a9fd83d847186", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3238f3bd6c96f48feada680c5c59b34a9fd83d847380", async() => {
                 WriteLiteral("\r\n                                <input type=\"email\" name=\"email\" placeholder=\"Email Address\"");
                 BeginWriteAttribute("required", " required=\"", 2854, "\"", 2865, 0);
                 EndWriteAttribute();

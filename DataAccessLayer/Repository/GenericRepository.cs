@@ -17,6 +17,12 @@ namespace DataAccessLayer.Repository
             c.SaveChanges();
         }
 
+        public T GetByID(int id)
+        {
+            using var c = new TraversalDbContext();
+            return c.Set<T>().Find(id);
+        }
+
         public List<T> GetList()
         {
             using var c = new TraversalDbContext();
