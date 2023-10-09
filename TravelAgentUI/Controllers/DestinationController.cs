@@ -18,8 +18,9 @@ namespace TravelAgentUI.Controllers
         [HttpGet]
         public IActionResult DestinationDetails(int id)
         {
+            ViewBag.i = id;
             var values = destinationManager.TGetByID(id);
-            return View();
+            return View(values);
         }
 
         [HttpPost]
