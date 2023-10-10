@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TravelAgentUI.Models;
 
 namespace TravelAgentUI
 {
@@ -27,7 +28,7 @@ namespace TravelAgentUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<TraversalDbContext>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<TraversalDbContext>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<TraversalDbContext>().AddErrorDescriber<CustomIdentityValidator>();
             services.AddControllersWithViews();
 
 
